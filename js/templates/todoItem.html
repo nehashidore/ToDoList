@@ -1,0 +1,8 @@
+
+<li class="view <%= status %> all">
+	<input class="toggle" type="checkbox" <%= completed_at ? 'checked' : '' %>>
+	<label class="toDoItemName"><%= text %></label>
+	<span class="dateFormat" style="display:none;"><%= completed_at %></span>
+	<i class="fa fa-trash pull-right" aria-hidden="true" style="display:none;"></i>
+</li>
+<input class="edit hidden inputText" value="<%= text %>">

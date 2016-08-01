@@ -1,0 +1,41 @@
+<!HTML>
+<head>
+	<title>ToDo App</title>
+	<script data-main="js/app" src="vendor/require.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/css/font-awesome.min.css">
+	<style>
+	</style>
+</head>
+<body>
+	<section class="container" id="parentWrapper">
+		<header>
+			<h1>My ToDos</h1>
+		</header>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<div data-status='all' class="pull-right col-md-2 status" >All</div>
+				<div class="pull-right col-md-2 status" data-status="complete">Complete</div>
+				<div class="pull-right col-md-2 status" data-status="incomplete">Active</div>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<input placeholder="Get going on these" class="inputText" id="typeToDoItem" type='text'></input>
+				<section id="listItemsWrapper">
+					<ul id="listItemsList">
+					</ul>
+					<ul class="pagination pull-right">
+						
+					</ul>
+				</section>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	
+	</section>
+</body>

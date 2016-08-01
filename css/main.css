@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Damion);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+}
+
+/** Common **/
+.inputText {
+	width:100%;
+	padding:10px;
+}
+
+/** Parent Wrapper **/
+#parentWrapper {
+	margin-top:5%;
+}
+
+/** Header **/
+header h1 {
+	font-family: 'Damion', cursive;
+	font-size:72px;
+	margin-left:40%;
+	margin-bottom:5%;
+	color:#E71D36;
+	text-transform: lowercase;
+}
+
+/** List of items **/
+#listItemsList {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+#listItemsList li {
+	padding: 9px;
+    border-top: 1px solid #41D3BD;
+}
+
+#listItemsList .incomplete {
+	background-color: #ffffff;
+}
+
+#listItemsList .complete {
+	background-color: #EFFFE9;
+}
+
+#listItemsList .view label {
+	font-weight:normal;
+}
+
+#listItemsList .view .dateFormat {
+	font-size:8px;
+	margin-right:5px;
+}
+
+/** ToDo Items' status **/
+.status {
+	color:#41D3BD;
+	border-right:1px solid #41D3BD;
+	margin: 0 1px 5px 0;
+	text-align : center;
+	cursor: pointer;
+}
+
+.status:first-child {
+	border-right:none;
+}
+
+.status:hover {
+	background-color:# #df9fbf;
+}
+
+    
